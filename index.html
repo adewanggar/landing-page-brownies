@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownies - Freshly Baked Brownies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Brownies</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produk">Produk</a></li>
+                    <li><a href="#testimoni">Testimoni</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="nav-overlay"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Freshly Baked Brownies</h1>
+                <p>5 Varian Lezat dan 1 Minuman Spesial untuk Melengkapi Harimu!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="produk" class="products">
+        <div class="container">
+            <h2>Pilihan Lezat Kami</h2>
+            <div class="product-slider-container">
+                <div class="product-slider">
+                    <div class="product-slide">
+                        <img src="assets/img/product/produk1.png" alt="Brownies Original">
+                        <div class="variant-name">Brownies Original</div>
+                    </div>
+                    <div class="product-slide">
+                        <img src="assets/img/product/produk2.png" alt="Brownies Keju">
+                        <div class="variant-name">Brownies Keju</div>
+                    </div>
+                    <div class="product-slide">
+                        <img src="assets/img/product/produk3.png" alt="Brownies Almond">
+                        <div class="variant-name">Brownies Almond</div>
+                    </div>
+                    <div class="product-slide">
+                        <img src="assets/img/product/produk4.png" alt="Brownies Matcha">
+                        <div class="variant-name">Brownies Matcha</div>
+                    </div>
+                    <div class="product-slide">
+                        <img src="assets/img/product/produk5.png" alt="Brownies Red Velvet">
+                        <div class="variant-name">Brownies Red Velvet</div>
+                    </div>
+                    <div class="product-slide">
+                        <img src="assets/img/product/produk6.png" alt="Choco Lava Drink">
+                        <div class="variant-name">Choco Lava Drink</div>
+                    </div>
+                </div>
+                <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drinks Section -->
+    <section id="minuman" class="drinks">
+        <div class="container">
+            <h2>Menu Minuman</h2>
+            <div class="drinks-grid">
+                <div class="drink-card">
+                    <div class="drink-image">
+                        <img src="assets/img/product/minuman.png" alt="Ice Chocolate">
+                    </div>
+                    <div class="drink-info">
+                        <h3>Ice Chocolate</h3>
+                        <p>Minuman coklat dingin yang creamy dan menyegarkan, cocok untuk menemani brownies favoritmu!</p>
+                        <div class="drink-price">Rp 25.000</div>
+                        <button class="add-to-cart-btn" data-id="ice-chocolate" data-name="Ice Chocolate" data-price="25000" data-image="assets/img/product/ice-chocolate.png">
+                            <i class="fas fa-shopping-cart"></i>
+                            Tambah ke Keranjang
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefit Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Kenapa Memilih Brownies?</h2>
+            <div class="benefit-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-cookie-bite"></i>
+                    <h3>Freshly Baked</h3>
+                    <p>Dibuat setiap hari agar selalu fresh</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Premium Ingredients</h3>
+                    <p>Menggunakan bahan berkualitas</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-gift"></i>
+                    <h3>Perfect Gift</h3>
+                    <p>Cocok untuk hadiah atau camilan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="testimonials">
+        <div class="container">
+            <h2>Apa Kata Pelanggan Kami?</h2>
+            <div class="testimonial-slider">
+                <!-- Testimonial items akan ditambahkan via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Pertanyaan yang Sering Diajukan</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Bagaimana cara memesan brownies?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Anda dapat memesan melalui WhatsApp kami dengan mengklik tombol "Pesan via WhatsApp" yang tersedia di website. Customer service kami akan segera merespon dan membantu proses pemesanan Anda.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Berapa lama brownies dapat bertahan?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Brownies kami dapat bertahan 3-4 hari dalam suhu ruang dan hingga 7 hari jika disimpan dalam kulkas. Untuk hasil terbaik, kami sarankan untuk mengonsumsi dalam 2-3 hari pertama.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Apakah tersedia layanan pengiriman?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Ya, kami menyediakan layanan pengiriman via GoSend/Grab Express untuk area Jakarta dan sekitarnya. Untuk pengiriman ke luar kota, kami menggunakan jasa ekspedisi pilihan customer.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Apakah bisa request custom order?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Ya, kami menerima pesanan custom untuk acara spesial seperti ulang tahun, wedding, atau corporate event. Silakan hubungi kami minimal 3 hari sebelum acara untuk membahas detail pesanan.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Metode pembayaran apa saja yang tersedia?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Kami menerima pembayaran melalui transfer bank (BCA, Mandiri, BNI) dan e-wallet (GoPay, OVO, DANA). Pembayaran harus dilakukan sebelum pesanan diproses.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Nikmati Brownies Sekarang Juga, Manisnya Tak Terlupakan!</h2>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Hubungi Kami</h3>
+                    <p><i class="fab fa-whatsapp"></i> +62 812-3456-7890</p>
+                    <p><i class="far fa-envelope"></i> brownies@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Kenangan Manis No. 10, Jakarta</p>
+                </div>
+                <div class="footer-nav">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#produk">Produk</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Brownies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/6281234567890" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Cart Popup -->
+    <div class="cart-popup">
+        <div class="cart-popup-content">
+            <div class="cart-header">
+                <h3>Keranjang Belanja</h3>
+                <button class="close-cart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-amount">Rp 0</span>
+                </div>
+                <button class="checkout-btn">
+                    <i class="fas fa-credit-card"></i>
+                    Bayar Sekarang
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
